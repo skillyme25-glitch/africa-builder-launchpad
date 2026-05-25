@@ -78,7 +78,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "SkillyMe Africa is building the next generation of African innovators, founders and AI talent through education, acceleration and community.",
       },
-      { property: "og:title", content: "SkillyMe Africa" },
+      { property: "og:title", content: "SkillyMe Africa — Africa's AI, Innovation & Founder Ecosystem" },
       {
         property: "og:description",
         content:
@@ -86,6 +86,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "SkillyMe Africa — Africa's AI, Innovation & Founder Ecosystem" },
+      { name: "description", content: "SkillyMe Africa is a premium innovation ecosystem for AI education, startup incubation, and founder acceleration." },
+      { property: "og:description", content: "SkillyMe Africa is a premium innovation ecosystem for AI education, startup incubation, and founder acceleration." },
+      { name: "twitter:description", content: "SkillyMe Africa is a premium innovation ecosystem for AI education, startup incubation, and founder acceleration." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/60b767f6-9a7c-45a2-864f-951a63ad9c9f/id-preview-1838535b--a02260b3-0e3f-4508-adfc-b0235faa3c80.lovable.app-1779734971308.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/60b767f6-9a7c-45a2-864f-951a63ad9c9f/id-preview-1838535b--a02260b3-0e3f-4508-adfc-b0235faa3c80.lovable.app-1779734971308.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
